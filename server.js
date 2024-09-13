@@ -1,5 +1,3 @@
-
-
 import connectToDatabase from "./database.js";
 import express from "express";
 const app = express();
