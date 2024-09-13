@@ -143,3 +143,9 @@ app.listen(port, () => {
 app.get("/test", (req, res) => {
   res.send("My server is running!");
 });
+
+app.get("server-express-ecommerce-1.vercel.app", (req, res) => {
+  // res.redirect("/products");
+  res.send("the server is work good ");
+});
+
