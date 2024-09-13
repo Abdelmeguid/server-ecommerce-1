@@ -1,0 +1,17 @@
+{
+  "name": "your-app-name",
+  "version": "1.0.0",
+  "main": "index.js",
+"comment": "below to use import in your project", 
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "nodemon": "^3.1.4"
+  }
+}
