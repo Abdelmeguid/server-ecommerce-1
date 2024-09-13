@@ -113,7 +113,8 @@ app.get("/api/config/paypal", (req, res) =>
 
 // Redirect root to products page
 app.get("/", (req, res) => {
-  res.redirect("/products");
+  // res.redirect("/products");
+  res.send("the server is work good ");
 });
 
 // Handle missing routes and errors
