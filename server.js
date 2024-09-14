@@ -23,7 +23,7 @@ app.use(express.json());
 
 // Define routes
 app.use("/api/products", productRoutes);
-app.use("/api/users", userRoutes);
+app.use("api/users", userRoutes);
 app.use("/api/orders", orderRoutes);
 
 // Serve PayPal client ID
