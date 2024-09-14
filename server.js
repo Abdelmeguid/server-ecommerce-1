@@ -33,7 +33,7 @@ app.get("/api/config/paypal", (req, res) =>
 
 // Redirect root to products page
 app.get("/", (req, res) => {
-  res.redirect("/products");
+  res.redirect("https://client-ecommerce-1.vercel.app/products");
   // res.send("the server is work good ");
 });
 
